@@ -1,1 +1,4 @@
 aws ec2 create-security-group --group-name test --description "Your Security Group Description" --vpc-id "VpcId"
+YourSecurityGroupName: The name you want to give to your security group.
+"Your Security Group Description": A brief description of your security group.
+YourVpcId: The ID of the VPC (Virtual Private Cloud) where you want to create the security group.
